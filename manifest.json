@@ -4,10 +4,11 @@
     "description":"It will show Shortcut in search result. You run the shortcut for quick access the google result.",
     "version":"0.1",
     "browser_action":{
+        "name": "GSearch Shortcut",
         "default_icon":"rhino.png"
     },
     "background":{
-        "scripts":["app.js"]
+        "scripts":["jquery.js","app.js"]
     },
     "permissions":[
         "tabs",
